@@ -1,0 +1,16 @@
+*.iml
+*.lock
+.DS_Store
+.history
+.idea
+.classpath
+.cache
+.project/
+.project
+.idea/
+.idea_modules/
+.settings/
+.target/
+target/
+.settings
+.cache
