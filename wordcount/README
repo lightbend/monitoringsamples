@@ -1,0 +1,22 @@
+##WORD COUNT SAMPLE APPLICATION
+This application will create a tree from words in which each letter becomes an actor. Each complete word  will be given a counter and this counter is incremented for each instance of that word in the text. It is possible to search for the most frequent words in the text.
+
+The app is used to simulate a lot of actor creation and also traversing these actors to create a load of the system.
+
+###To Run
+From command line directly:
+
+	> sbt "run <textfile> <numberOfSearchesToPerform> <numberOfWordsToFind>"
+	
+or from inside sbt:
+
+	> sbt
+	> run <<textfile> <numberOfSearchesToPerform> <numberOfWordsToFind>
+
+###Existing sample files
+The project contains a couple of sample files that can be used:
+
+* samples/1080mods.txt
+* samples/msdos1.txt
+* samples/lmiss10.txt
+
